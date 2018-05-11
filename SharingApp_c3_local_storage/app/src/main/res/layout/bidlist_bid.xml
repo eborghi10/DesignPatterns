@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/bidder_tv"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/bidder"/>
+
+            <TextView
+                android:id="@+id/bid_amount_tv"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/dollar_sign"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/accept_bid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="acceptBid"
+            android:text="@string/accept_bid"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            />
+
+        <Button
+            android:id="@+id/decline_bid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="declineBid"
+            android:text="@string/decline_bid"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Sharing App</string>
+    <string name="keyword">Enter Keyword</string>
+
+    <string name="title_hint">Title</string>
+    <string name="maker_hint">Maker</string>
+    <string name="description_hint">Description</string>
+    <string name="length_hint">Length</string>
+    <string name="width_hint">Width</string>
+    <string name="height_hint">Height</string>
+    <string name="dimensions_hint">L x W x H</string>
+    <string name="status_hint">Status</string>
+    <string name="borrower_hint">Borrower</string>
+    <string name="username_hint">Username</string>
+    <string name="email_hint">Email</string>
+    <string name="minimum_bid_hint">Minimum Bid</string>
+    <string name="current_bid_hint">Current Bid</string>
+
+    <string name="dollar_sign">$</string>
+    <string name="bidder">Bidder</string>
+
+    <string name="save">Save</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="login">Login</string>
+    <string name="place_bid">Place Bid</string>
+    <string name="view_bids_button">View Bids</string>
+    <string name="return_item_button">Set Available</string>
+    <string name="accept_bid">Accept</string>
+    <string name="decline_bid">Decline</string>
+    <string name="decline_all_bids">Decline All Bids</string>
+    <string name="view_contact_info_button">Contact Borrower</string>
+    <string name="borrower_return_item_button">Return Item</string>
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="search">Search</string>
+    <string name="logout">Logout</string>
+    <string name="borrowed_items">Borrowed Items</string>
+
+
+    <string name="image_icon">Image Icon</string>
+
+    <string name="title_activity_main">Sharing App</string>
+    <string name="title_activity_login">Sign in</string>
+
+</resources>
